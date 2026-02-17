@@ -2,6 +2,8 @@
 
 React front-end for the Stellaris market-making platform on Solana.
 
+[User docs can be found here](https://alizerin-jeff.github.io/stellaris-client/)
+
 ## Architecture
 
 - **React 19** with TypeScript
