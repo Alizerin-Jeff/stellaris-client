@@ -9,7 +9,7 @@ has_children: true
 
 ## What are trading operations
 
-Trading operations are discrete actions you run against a liquidity pool through your bot. Each operation type serves a different purpose — generating volume, injecting liquidity, extracting value, or defending a price floor.
+Trading operations are discrete actions you run against a liquidity pool through your bot. Each operation type serves a different purpose: generating volume, injecting liquidity, extracting value, or defending a price floor.
 
 You can run multiple operations simultaneously on the same bot, and control them in real-time from the dashboard.
 
@@ -23,7 +23,7 @@ Every operation uses these common parameters:
 | **Slippage (%)** | Maximum acceptable price impact per trade. Trades exceeding this threshold are rejected |
 | **Concurrency (1–3)** | Number of parallel trades per cycle. Higher concurrency means more trades happen at once |
 | **Time Interval (min/max seconds)** | Random delay between cycles. Each cycle waits a random duration between your min and max |
-| **Number of Wallets** | How many wallets from your account to distribute trades across |
+| **Number of Wallets** | How many wallets from your account to distribute trades across. There is no upper bound on this. |
 
 ## Starting, stopping, and updating
 

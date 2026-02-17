@@ -9,7 +9,7 @@ nav_order: 3
 
 ## What it does
 
-Extract sells tokens progressively to bring the pool's quote reserve down to a target level. Use it to take profits or reduce your position in a controlled way.
+Extract sells tokens progressively to bring the pool's quote reserve down to a target level. Use it to take profits or reduce your position in a controlled way. It automatically tracks incomng liquidity and adjusts the reserve target accordingly to avoid over-selling.  This allows extraction while keepng a healthy chart.
 
 ## Parameters
 

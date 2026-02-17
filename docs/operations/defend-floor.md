@@ -9,7 +9,7 @@ nav_order: 4
 
 ## What it does
 
-Defend Floor monitors a token's price or market cap and automatically buys when it drops below your threshold. Use it to maintain a price floor or prevent market cap from falling below a key level.
+Defend Floor monitors a token's price or market cap and automatically buys when it drops below your threshold. Use it to maintain a price floor or prevent market cap from falling below a key level. It pairs well with Extraction running on the same account.
 
 ## Parameters
 

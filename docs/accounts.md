@@ -61,7 +61,7 @@ Treat your private key like a password. Anyone with your private key has full co
 Deleting an account is permanent and cannot be undone.
 
 - You must enter your **wallet password** to confirm
-- You **cannot delete** an account that is currently used by active bots — remove or delete those bots first
+- You **cannot delete** an account that is currently used by active bots. Remove or delete those bots first
 
 {: .warning }
 Account deletion is irreversible. Make sure you have transferred all funds and saved your seed phrase before deleting.

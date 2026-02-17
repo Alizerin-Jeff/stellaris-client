@@ -8,11 +8,11 @@ nav_order: 8
 
 ## What is a Pool ID and where do I find it?
 
-A Pool ID is the on-chain address of a liquidity pool. You can find it on the pool's page on [Raydium](https://raydium.io), [Meteora](https://meteora.ag), or [Pump.fun](https://pump.fun). It's the address shown in the URL or in the pool details section.
+A Pool ID is the on-chain address of a liquidity pool. You can find it on the pool's page on [Raydium](https://raydium.io), [Meteora](https://meteora.ag), or [Pump.fun](https://pump.fun). It's the address shown in the URL or in the pool details section. On Dexscreener this is called the "Pair" address.
 
 ## What wallets are supported for login?
 
-Stellaris supports Phantom, Solflare, Torus, and Ledger for wallet-based login.
+Stellaris supports Phantom, Solflare, Torus, Jupiter and Ledger for wallet-based login.
 
 ## What's the difference between my login wallet and my account wallets?
 
@@ -28,7 +28,7 @@ You cannot delete an account that is currently used by active bots. Stop and del
 
 Concurrency controls how many trades happen in parallel during each cycle. A concurrency of 1 means one trade at a time. A concurrency of 3 means up to three trades execute simultaneously in each cycle.
 
-Higher concurrency generates more activity but uses more SOL for gas.
+Higher concurrency generates more activity but uses more SOL for gas and fees.
 
 ## My operation stopped unexpectedly — what happened?
 
@@ -44,7 +44,7 @@ Inject stops automatically when the full injection amount has been distributed. 
 
 ## Is my private key stored on Stellaris servers?
 
-Your private keys are derived from your seed phrase and encrypted with your wallet password. Stellaris does not store your unencrypted private keys. You are responsible for saving your seed phrase at account creation — it cannot be recovered later.
+Your private keys are derived from your seed phrase and encrypted with your wallet password. Stellaris does not store your unencrypted private keys. You are responsible for saving your seed phrase at account creation and it cannot be recovered later.
 
 ## What pools does Stellaris support?
 
